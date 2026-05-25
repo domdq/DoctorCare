@@ -1,0 +1,131 @@
+header {
+  position: relative;
+  background: #dce9e2;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.ul-header {
+  display: flex;
+  gap: 30px;
+}
+
+.ul-header li > a {
+  color: #00856f;
+  font-size: 1rem;
+  font-family: "DM Sans";
+}
+
+.btn-header {
+  padding: 10px 24px;
+  border-radius: 50px;
+  border: solid 1px #00856f;
+  background: #dce9e2;
+  color: #00856f;
+  font-family: "DM Sans";
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.btn-header:hover {
+  background: #009b7d;
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn-header:active {
+  cursor: pointer;
+  transform: scale(0.9);
+  background: #036253;
+}
+
+.header-infor {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text-infor > span {
+  color: #00856f;
+  font-family: "DM Sans";
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.text-infor > h1 {
+  font-family: "DM Sans";
+  font-weight: bold;
+  font-size: 3.25rem;
+  margin-top: 16px;
+  color: #212529;
+}
+
+.text-infor > p {
+  font-family: "DM Sans";
+  font-size: 1.125rem;
+  color: #495057;
+  margin-top: 24px;
+}
+.text-infor > button {
+  padding: 10px 24px;
+  border-radius: 50px;
+  border: none;
+  background: #00856f;
+  color: #dce9e2;
+  font-family: "DM Sans";
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  gap: 16px;
+  margin-top: 32px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.text-infor > button:hover {
+  background: #009b7d;
+}
+
+.text-infor > button:active {
+  cursor: pointer;
+  transform: scale(0.9);
+  background: #036253;
+}
+
+.card {
+  padding: 64px 120px;
+  background: #fff1d5;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  width: 100%;
+  top: 550px;
+  max-width: 1360px;
+}
+
+.card-infor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "DM Sans";
+  font-weight: bold;
+  font-size: 3rem;
+  color: #212529;
+}
+
+.card-infor > p {
+  font-family: "DM Sans";
+  color: #00856f;
+  font-size: 1rem;
+  margin-top: 4px;
+}
