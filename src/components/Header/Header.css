@@ -1,6 +1,17 @@
+:root {
+  --green: #00856f;
+  --green-light: #dce9e2;
+  --beige: #fffaf1;
+  --green-hover: #00453a;
+
+  --gray: #061800;
+  --paragraph: #384633;
+  --white: #3e3e3e;
+}
+
 header {
   position: relative;
-  background: #dce9e2;
+  background: var(--green-light);
 }
 .nav-header {
   display: flex;
@@ -15,7 +26,7 @@ header {
 }
 
 .ul-header li > a {
-  color: #00856f;
+  color: var(--green);
   font-size: 1rem;
   font-family: "DM Sans";
 }
@@ -23,9 +34,9 @@ header {
 .btn-header {
   padding: 10px 24px;
   border-radius: 50px;
-  border: solid 1px #00856f;
-  background: #dce9e2;
-  color: #00856f;
+  border: solid 1px var(--green);
+  background: var(--green-light);
+  color: var(--green);
   font-family: "DM Sans";
   font-size: 0.875rem;
   font-weight: bold;
@@ -53,7 +64,7 @@ header {
 }
 
 .text-infor > span {
-  color: #00856f;
+  color: var(--green);
   font-family: "DM Sans";
   font-size: 0.875rem;
   font-weight: bold;
@@ -70,15 +81,15 @@ header {
 .text-infor > p {
   font-family: "DM Sans";
   font-size: 1.125rem;
-  color: #495057;
+  color: var(--gray);
   margin-top: 24px;
 }
 .text-infor > button {
   padding: 10px 24px;
   border-radius: 50px;
   border: none;
-  background: #00856f;
-  color: #dce9e2;
+  background: var(--green);
+  color: var(--green-light);
   font-family: "DM Sans";
   font-size: 0.875rem;
   font-weight: bold;
@@ -102,7 +113,7 @@ header {
 
 .card {
   padding: 64px 120px;
-  background: #fff1d5;
+  background: var(--beige);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -110,6 +121,7 @@ header {
   width: 100%;
   top: 550px;
   max-width: 1360px;
+  margin-bottom: 160px;
 }
 
 .card-infor {
@@ -125,7 +137,7 @@ header {
 
 .card-infor > p {
   font-family: "DM Sans";
-  color: #00856f;
+  color: var(--green);
   font-size: 1rem;
   margin-top: 4px;
 }
