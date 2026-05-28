@@ -1,6 +1,6 @@
 import Nav from "./Nav/Nav";
 import Header from "./Header/Header";
-import Section from "./Section/Section";
+import Section from "./SectionServicos/SectionServicos";
 import "./App.css";
 
 export default function App() {
