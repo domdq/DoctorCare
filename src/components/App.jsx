@@ -8,7 +8,7 @@ export default function App() {
     <div className="app">
       <Nav />
       <Header />
-      <Section />
+      <SectionServicos />
     </div>
   );
 }

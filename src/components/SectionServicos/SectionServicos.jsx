@@ -1,7 +1,7 @@
-import "./Section.css";
+import "./SectionServicos.css";
 import Check from "../../assets/check.png";
 
-export default function Section() {
+export default function SectionServicos() {
   return (
     <section>
       <div className="container">
