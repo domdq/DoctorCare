@@ -1,37 +1,10 @@
-:root {
-  --green: #00856f;
-  --green-light: #dce9e2;
-  --beige: #fffaf1;
-  --green-hover: #00453a;
-
-  --gray: #061800;
-  --paragraph: #384633;
-  --white: #3e3e3e;
-}
-
 header {
   position: relative;
   background: var(--green-light);
-}
-.nav-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 30px;
+  padding: 4px 0 55px 0;
 }
 
-.ul-header {
-  display: flex;
-  gap: 30px;
-}
-
-.ul-header li > a {
-  color: var(--green);
-  font-size: 1rem;
-  font-family: "DM Sans";
-}
-
-.btn-header {
+.btn-outlined {
   padding: 10px 24px;
   border-radius: 50px;
   border: solid 1px var(--green);
@@ -45,13 +18,13 @@ header {
   transition: 0.4s;
 }
 
-.btn-header:hover {
+.btn-outlined:hover {
   background: #009b7d;
   color: #fff;
   border-color: #fff;
 }
 
-.btn-header:active {
+.btn-outlined:active {
   cursor: pointer;
   transform: scale(0.9);
   background: #036253;
@@ -60,7 +33,7 @@ header {
 .header-infor {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .text-infor > span {
@@ -111,17 +84,20 @@ header {
   background: #036253;
 }
 
+.card-wrapper {
+  position: absolute;
+}
+
 .card {
   padding: 64px 120px;
   background: var(--beige);
+  border: 1px solid var(--green-light);
+  border-radius: 8px;
   display: flex;
+  gap: 100px;
+  width: 100%;
   align-items: center;
   justify-content: space-evenly;
-  position: absolute;
-  width: 100%;
-  top: 550px;
-  max-width: 1360px;
-  margin-bottom: 160px;
 }
 
 .card-infor {
@@ -139,5 +115,12 @@ header {
   font-family: "DM Sans";
   color: var(--green);
   font-size: 1rem;
+  font-weight: normal;
   margin-top: 4px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin-right: 44px;
 }

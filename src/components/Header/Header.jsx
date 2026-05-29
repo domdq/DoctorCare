@@ -1,7 +1,7 @@
 import "./Header.css";
-import Logo from "../../assets/Logo.svg";
+import Logo from "../../assets/logo-dark.svg";
 import Image from "../../assets/image.png";
-import Path4 from "../../assets/path4.svg";
+import Path4 from "../../assets/whatsapp.svg";
 import divider from "../../assets/divider.png";
 
 export default function Header() {
@@ -9,24 +9,6 @@ export default function Header() {
     <header>
       <div className="container">
         <div className="header-content">
-          <div className="nav-header">
-            <img src={Logo} alt="" />
-            <ul className="ul-header">
-              <li>
-                <a href="#inicio">Inicio</a>
-              </li>
-              <li>
-                <a href="#sobre">Sobre</a>
-              </li>
-              <li>
-                <a href="#serviços">Serviços</a>
-              </li>
-              <li>
-                <a href="#depoimento">Depoimento</a>
-              </li>
-            </ul>
-            <button className="btn-header">Agendar consulta</button>
-          </div>
           <div className="header-infor">
             <div className="text-infor">
               <span>BOAS-VINDAS A DOCTORCARE 👋</span>
@@ -39,12 +21,17 @@ export default function Header() {
                 <br />
                 raiz de sua doença e proporcionar uma cura a longo prazo.
               </p>
-              <button>
-                <img src={Path4} alt="" /> Agende sua consulta
+              <button className="btn-full">
+                <img src={Path4} alt="" />
+                Agende sua consulta
               </button>
             </div>
             <img src={Image} alt="" />
           </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="card-wrapper">
           <div className="card">
             <div className="card-infor">
               +3.500

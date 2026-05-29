@@ -1,0 +1,78 @@
+:root {
+  --green: #00856f;
+  --green-light: #dce9e2;
+  --beige: #fffaf1;
+  --green-hover: #00453a;
+
+  --gray: #061800;
+  --paragraph: #384633;
+  --white: #3e3e3e;
+}
+
+.contato {
+  background: white;
+}
+
+.content-contato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 141px;
+  padding: 160px;
+}
+
+.content-contato img {
+  margin: 0px;
+}
+
+.contato-info h2 {
+  font-family: "DM Sans";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--paragraph);
+  margin-bottom: 40px;
+}
+
+.map {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  font-family: "DM Sans";
+  font-size: 1rem;
+  font-weight: regular;
+  color: var(--paragraph);
+}
+
+.mail {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 40px;
+  font-family: "DM Sans";
+  font-size: 1rem;
+  font-weight: regular;
+  color: var(--paragraph);
+}
+
+.btn-full {
+  padding: 10px 24px;
+  border-radius: 50px;
+  border: solid 1px #ffffff;
+  background: #00856f;
+  color: #ffffff;
+  font-family: "DM Sans";
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.btn-full:hover {
+  background: #009b7d;
+}
+
+.btn-full:active {
+  cursor: pointer;
+  transform: scale(0.9);
+  background: #036253;
+}

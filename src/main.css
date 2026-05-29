@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+:root {
+  --green: #00856f;
+  --green-light: #dce9e2;
+  --beige: #fffaf1;
+  --green-hover: #00453a;
+
+  --gray: #061800;
+  --paragraph: #384633;
+  --white: #3e3e3e;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,15 +21,4 @@
 .container {
   max-width: 1366px;
   margin: 0 auto;
-}
-
-:root {
-  --green: #00856f;
-  --green-light: #dce9e2;
-  --beige: #fffaf1;
-  --green-hover: #00453a;
-
-  --gray: #061800;
-  --paragraph: #384633;
-  --white: #3e3e3e;
 }

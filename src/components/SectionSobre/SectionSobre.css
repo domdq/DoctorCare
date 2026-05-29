@@ -1,0 +1,34 @@
+.section-sobre {
+  background: var(--beige);
+}
+
+.content-sobre {
+  display: flex;
+  gap: 67px;
+  align-items: center;
+  justify-content: center;
+  padding: 160px;
+}
+
+.sobre-info span {
+  font-family: "DM Sans";
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: var(--green);
+}
+
+.sobre-info h1 {
+  font-family: "DM sans";
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: var(--paragraph);
+  margin-top: 10px;
+}
+
+.sobre-info p {
+  font-family: "DM Sans";
+  font-size: 1rem;
+  font-weight: regular;
+  color: var(--paragraph);
+  margin-top: 24px;
+}

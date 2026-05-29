@@ -1,28 +1,31 @@
+.nav {
+  background: var(--green-light);
+}
+
 .nav-content {
-  background: #00856f;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding: 25px;
+  justify-content: space-between;
+  padding: 1rem 0;
 }
 
 .ul-nav {
   display: flex;
-  gap: 30px;
+  gap: 32px;
 }
 
 .ul-nav li > a {
-  color: #dce9e2;
+  color: var(--green);
   font-family: "DM Sans";
   font-size: 1rem;
 }
 
 .ul-nav li > a:hover {
-  color: #f7f9f9;
+  color: var(--paragraph);
   text-decoration: underline;
 }
 
-.btn-nav {
+.btn-full {
   padding: 10px 24px;
   border-radius: 50px;
   border: solid 1px #ffffff;
@@ -36,11 +39,37 @@
   transition: 0.4s;
 }
 
-.btn-nav:hover {
+.btn-full:hover {
   background: #009b7d;
 }
 
-.btn-nav:active {
+.btn-full:active {
+  cursor: pointer;
+  transform: scale(0.9);
+  background: #036253;
+}
+
+.btn-outlined {
+  padding: 10px 24px;
+  border-radius: 50px;
+  border: solid 1px var(--green);
+  background: var(--green-light);
+  color: var(--green);
+  font-family: "DM Sans";
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.btn-outlined:hover {
+  background: #009b7d;
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn-outlined:active {
   cursor: pointer;
   transform: scale(0.9);
   background: #036253;
