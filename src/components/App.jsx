@@ -5,6 +5,7 @@ import Section from "./SectionServicos/SectionServicos";
 import SectionServicos from "./SectionServicos/SectionServicos";
 import SectionSobre from "./SectionSobre/SectionSobre";
 import Contato from "./contato/Contado";
+import Footer from "./Footer/Footer";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <SectionServicos />
       <SectionSobre />
       <Contato />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,47 @@
+:root {
+  --green: #00856f;
+  --green-light: #dce9e2;
+  --beige: #fffaf1;
+  --green-hover: #00453a;
+
+  --gray: #061800;
+  --paragraph: #384633;
+  --white: #3e3e3e;
+}
+
+footer {
+  background: var(--green);
+}
+
+.content-footer {
+  padding: 80apx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-copyright {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer-copyright img {
+  margin: 0;
+}
+
+.footer-copyright p {
+  font-family: "DM Sans";
+  font-size: 0.875rem;
+  font-weight: regular;
+  color: var(--beige);
+}
+
+.footer-redesocial {
+  display: flex;
+  gap: 32px;
+}
+
+.footer-redesocial img {
+  margin: 0;
+}
