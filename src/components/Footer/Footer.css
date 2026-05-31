@@ -1,20 +1,9 @@
-:root {
-  --green: #00856f;
-  --green-light: #dce9e2;
-  --beige: #fffaf1;
-  --green-hover: #00453a;
-
-  --gray: #061800;
-  --paragraph: #384633;
-  --white: #3e3e3e;
-}
-
 footer {
   background: var(--green);
 }
 
 .content-footer {
-  padding: 80apx;
+  padding: 80px 0px;
   display: flex;
   align-items: center;
   justify-content: space-between;
